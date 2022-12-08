@@ -70,18 +70,30 @@ Picture:
 
 <br>
 
-I will be using the `--priority` option to print logs with a priority of warning or more important. I found it in the manpage by scrolling down till I saw the options.
+I will be using the `-p` option to print logs with a priority of warning or more important. I found it in the manpage by scrolling down till I saw the options.
 
 Picture:
 ![alt text](/images/question3priority.png)
 
 <br>
 
-I will be using the `--boot` option to print logs for the current boot. I found this online and it worked.
+I will be using the `-b` option to print logs for the current boot. I found this online and and on the manpage
 
-The command is `journalctl --priority=warning --boot --json-pretty`
+Picture:
+![alt text](/images/question3boot.png)
+
+<br>
 
 
+
+
+The full  command is `journalctl -b -p warning --output=json-pretty`
+
+Picture:
+![alt text](/images/question3fullcommand.png)
+
+
+<br>
 <br>
 
 
@@ -100,7 +112,7 @@ I then added passwords to the users using the `passwd` command.
 <br>
 
 Picture:
-![alt text](/images/question4apsswd.png)
+
 
 <br>
 
