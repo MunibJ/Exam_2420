@@ -9,7 +9,10 @@ Final exam for my `2420 class`
 # Question 1: 
 `How could you update most of the software on your Ubuntu OS?`
 
-## Answer: sudo apt-get update
+## Answer: 
+`sudo apt update`
+`sudo apt upgrade`
+
 <br>
 <br>
 <br>
