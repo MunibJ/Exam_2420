@@ -123,11 +123,13 @@ I then created my bash script using the `vim` command and called it question4.sh
 <br>
 
 The bash script I made is:
+
 ![alt text](/images/question4bash.png)
 
 <br>
 
 And the output is:
+
 ![alt text](/images/question4output.png)
 
 <br>
@@ -150,6 +152,7 @@ Picture:
 I created a service file using the `vim` command and called it question4.service and made it executable using the `chmod` command. I placed the service file in the `/etc/systemd/system` directory.
 
 Picture:
+
 ![alt text](/images/question5service.png)
 
 <br>
@@ -175,6 +178,7 @@ I then moved the question4.service file over to my `/etc/systemd/system` directo
 I then ran the `systemctl` command to enable the service and start the service. Following that, I ran the command `systemctl start` to start the service and `systemctl status` to check the status of the service.
 
 Picture:
+
 ![alt text](/images/question4servicefile.png)
 <br>
 
@@ -205,9 +209,7 @@ WantedBy=timers.target
 
 I then moved the question4.timer file over to my `/etc/systemd/system` directory. 
 
-Following that I ran the `systemctl` command to enable the timer and start the timer. 
-
-Following that, I ran the command `systemctl start` to start the timer and `systemctl status` to check the status of the timer.
+Following that, I ran the command  `systemctl daemon-reload`, `systemctl enable question4.timer` and `systemctl start question4.timer` to start the timer and `systemctl status` to check the status of the timer.
 
 Picture:
 
