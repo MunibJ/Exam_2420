@@ -104,6 +104,7 @@ Picture:
 I used the `adduser` command to create a new user and made 3 test users
 
 Picture:
+
 ![alt text](/images/question4adduser.png)
 
 <br>
@@ -112,6 +113,7 @@ I then added passwords to the users using the `passwd` command.
 <br>
 
 Picture:
+
 ![alt text](/images/question4apsswd.png)
 
 
