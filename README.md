@@ -112,6 +112,7 @@ I then added passwords to the users using the `passwd` command.
 <br>
 
 Picture:
+![alt text](/images/question4apsswd.png)
 
 
 <br>
