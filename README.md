@@ -40,6 +40,7 @@ For the `V` to `C` change, I used the `:s` command again.
 I manually made the other changes such as in the unit and temp variables using `insert mode`.
 
 The final code is:
+
 ![alt text](/images/question2vimfile.png)
 
 <br>
